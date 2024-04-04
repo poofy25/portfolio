@@ -7,7 +7,7 @@ import Link from "next/link"
 
 import NavBarMenu from './NavBarMenu'
 
-export default function NavBar () {
+export default function Navbar () {
 
     const [isMenuOpen , setIsMenuOpen] = useState(false)
 

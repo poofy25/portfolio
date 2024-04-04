@@ -15,7 +15,7 @@ export default function HeroComponent () {
             ">
                 <div className="flex flex-col items-center gap-4 flex-1 pt-8 sm:gap-6 sm:py-10 sm:items-start">
                     <h1 className="font-bold text-4xl text-center sm:text-left sm:text-5xl">Front-End React Developer</h1>
-                    <p className="text-lg text-center sm:text-left opacity-90">Hi, I'm Buza Cristian. A passionate Front-end React Developer based Moldova. 📍</p>
+                    <p className="text-lg text-center sm:text-left opacity-90">Hi, I&apos;m Buza Cristian. A passionate Front-end React Developer based Moldova. 📍</p>
                     <div className="flex gap-4">
                         <Link href=''><Image src={LinkedInSvg} width='32' height='32'/></Link>
                         <Link href=''><Image src={GithubSvg} width='32' height='32'/></Link>

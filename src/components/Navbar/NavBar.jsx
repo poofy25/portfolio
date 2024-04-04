@@ -15,7 +15,7 @@ export default function Navbar () {
     return (
         <nav className="
         flex flex-row items-center w-full h-[80px] bg-primary overflow-hidden px-[7.5vw]
-        relative justify-between box-border shadow-lg
+        relative justify-between box-border shadow-lg z-20
         "
         >
 
@@ -26,7 +26,7 @@ export default function Navbar () {
 
 
             {/* Logo */}
-            <h2 className="relative h-full flex flex-col justify-center items-center text-2xl font-bold">
+            <h2 className="relative h-full flex flex-col justify-center items-center text-xl font-bold">
                 Cristian.dev
             </h2>
 
@@ -41,10 +41,10 @@ export default function Navbar () {
             {/* Hamburger button */}
             <div className="relative h-full flex flex-col justify-center items-center sm:hidden ">
                 <button onClick={()=>setIsMenuOpen(current=>!current)}
-                className="relative w-[32px] h-[24px] p-0 bg-transparent hover:bg-transparent">
-                    <div className="w-full h-[2px] absolute top-0 left-0 bg-secondary rounded"></div>
-                    <div className="w-full h-[2px] absolute left-0 bg-secondary rounded"></div>
-                    <div className="w-full h-[2px] absolute bottom-0 left-0 bg-secondary rounded"></div>
+                className="relative w-[30px] h-[22px] p-0 bg-transparent hover:bg-transparent">
+                    <div className="w-full h-[3px] absolute top-0 left-0 bg-secondary rounded"></div>
+                    <div className="w-full h-[3px] translate-y-[-50%] absolute left-0 bg-secondary rounded"></div>
+                    <div className="w-full h-[3px] absolute bottom-0 left-0 bg-secondary rounded"></div>
                 </button>
             </div>
 

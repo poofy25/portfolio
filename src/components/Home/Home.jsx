@@ -21,7 +21,7 @@ import MongoSvg from '/public/svgs/mongoicon.svg'
 
 export default function HeroComponent () {
     return (
-        <article className="bg-transparent w-full min-h-[calc(100vh-80px)] gap-8 flex flex-col justify-between py-8 px-[7.5vw] sm:py-[80px] sm:px-[15vw] box-border"> 
+        <article className="bg-transparent w-full min-h-[calc(100vh-80px)] gap-8 flex flex-col justify-between py-8 pb-16 px-[7.5vw] sm:py-[80px] sm:px-[15vw] box-border"> 
             <div className="flex flex-col-reverse items-center justify-center 
             sm:flex-row sm:items-start sm:gap-16
             ">
@@ -58,7 +58,7 @@ export default function HeroComponent () {
                     </div>
                     <div className='flex gap-2'>
                         <div className='skill'><Image src={JsSvg} width='48' height='48'/><p>JavaScript</p></div>
-                        <div className='skill'><Image src={TypeScriptSvg} width='48' height='48'/><p>TypeScriptSvg</p></div>
+                        <div className='skill'><Image src={TypeScriptSvg} width='48' height='48'/><p>TypeScript</p></div>
                     </div>
                     <div className='flex gap-2'>
                         <div className='skill'><Image src={NodeJsSvg} width='48' height='48'/><p>NodeJs</p></div>

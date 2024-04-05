@@ -29,7 +29,7 @@
     transition: 0.15s ease-in-out;
     border: 2px solid white;
     border-radius: 12px;
-    @apply shadow-lg
+    @apply shadow-lg border-secondary
 }
 .skill:hover > img {
     transform: translateY(-25%);

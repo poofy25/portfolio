@@ -19,7 +19,7 @@ export default function AboutSection () {
                 <div className="flex flex-col justify-center items-center flex-1 md:items-start">
                     <h3 className="text-lg text-complimentary font-bold pb-4 ">ABOUT ME</h3>
                     <h2 className="text-2xl font-bold text-center mb-4 md:text-start">Front-end Developer based in Moldova 📍</h2>
-                    <p className="text-center text-base opacity-75 mb-4 md:text-start">Hey, my name is Buza Cristian, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX for my users.</p>
+                    <p className="text-center text-base opacity-75 mb-4 md:text-start">Hey, my name is Buza Cristian, and I&apos;m a Frontend Developer. My passion is to create and develop a clean UI/UX for my users.</p>
                     <p className="text-center text-base opacity-75 md:text-start">My main stack currently is React/Next.js in combination with Tailwind CSS and MongoDB.</p>
                 </div>
             </div>

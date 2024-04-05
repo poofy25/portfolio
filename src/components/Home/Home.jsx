@@ -4,7 +4,6 @@ import Image from "next/image"
 import Link from "next/link"
 
 import HeroImage from '/public/imgs/hero.png'
-import WavingHandImage from '/public/imgs/waving-hand.png'
 import LinkedInSvg from '/public/svgs/linkedin.svg'
 import GithubSvg from '/public/svgs/github.svg'
 

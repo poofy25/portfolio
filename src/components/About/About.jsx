@@ -14,7 +14,7 @@ export default function AboutSection () {
                 <div className="relative w-[clamp(200px,100%,410px)] aspect-[14/10] rounded-2xl overflow-hidden mb-8
                 md:m-0 md:aspect-[14/12] md:w-[clamp(200px,40%,410px)]
                 ">
-                    <Image src={AboutImg} className="w-full h-full object-cover" height='350' width='400'/>
+                    <Image src={AboutImg} className="w-full h-full object-cover" height='500' width='700'/>
                 </div>
                 <div className="flex flex-col justify-center items-center flex-1 md:items-start">
                     <h3 className="text-lg text-complimentary font-bold pb-4 ">ABOUT ME</h3>

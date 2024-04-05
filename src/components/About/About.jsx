@@ -1,7 +1,7 @@
 
 import Image from "next/image"
 
-import AboutImg from '/public/imgs/about.jpg'
+import AboutImg from '/public/imgs/about.webp'
 
 export default function AboutSection () {
     return (

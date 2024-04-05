@@ -16,10 +16,10 @@ module.exports = {
 
 
     colors:{
-      "primary":"#f7f7f7",
-      "secondary":"#2D2E32",
+      "primary":"#2D2E32",
+      "secondary":"#f7f7f7",
       "complimentary":"#1480FC",
-      "textPrimary":"#2D2E32"
+      "textPrimary":"#f7f7f7"
 
     }
   },

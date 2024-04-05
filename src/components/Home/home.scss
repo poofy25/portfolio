@@ -2,6 +2,7 @@
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     animation: morph 8s ease-in-out infinite;
     border: 4px solid black;
+    @apply border-secondary
 
 }
 
@@ -15,4 +16,29 @@
     100% {
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
+}
+.skill {
+    @apply flex flex-col items-center relative z-10
+}
+.skill > p {
+    transition: 0.15s ease-in-out;
+    @apply hidden  absolute -z-10 w-full h-full opacity-0 lg:flex justify-center items-start
+
+}
+.skill > img {
+    transition: 0.15s ease-in-out;
+    border: 2px solid white;
+    border-radius: 12px;
+    @apply shadow-lg
+}
+.skill:hover > img {
+    transform: translateY(-25%);
+}
+.skill:hover > p {
+    transform: translateY(-85%);
+    @apply opacity-100
+}
+
+.heroLink:hover > img {
+    @apply invert-0
 }

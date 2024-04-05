@@ -26,3 +26,10 @@ body {
   }
 }
 
+h2{
+  @apply text-2xl font-bold
+}
+
+h3{
+ @apply text-lg font-semibold
+}

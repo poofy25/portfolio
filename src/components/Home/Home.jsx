@@ -20,7 +20,7 @@ import MongoSvg from '/public/svgs/mongoicon.svg'
 
 export default function HeroComponent () {
     return (
-        <article className="bg-transparent w-full min-h-[calc(100vh-80px)] gap-8 flex flex-col justify-between py-8 pb-16 px-[7.5vw] sm:py-[80px] sm:pb-32 sm:px-[17.5vw] box-border"> 
+        <article id='home' className="bg-transparent w-full min-h-[calc(100vh-80px)] gap-8 flex flex-col justify-between py-8 pb-16 px-[7.5vw] sm:py-[80px] sm:pb-32 sm:px-[17.5vw] box-border"> 
             <div className="flex flex-col-reverse items-center justify-center 
             sm:flex-row sm:items-start sm:gap-16
             ">

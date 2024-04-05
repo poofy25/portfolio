@@ -21,7 +21,7 @@ module.exports = {
         light:"#35363b"
       },
       "secondary":"#f7f7f7",
-      "complimentary":"#1480FC",
+      "complimentary":"#3AAFB9",
       "textPrimary":"#f7f7f7"
 
     }

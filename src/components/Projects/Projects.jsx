@@ -43,9 +43,9 @@ export default function ProjectsSection () {
                         <div className='skill'><Image src={TailwindSvg} width='48' height='48'/></div>
                         <div className='skill'><Image src={SassSvg} width='48' height='48'/></div>
                     </div>
-                    <div className="flex gap-4 mt-2">
-                        <Link href='https://github.com/poofy25/Restaurant_WebApp' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Code <Image className="invert" src={GithubUrlSvg} width='32' height='32'/></Link>
-                        <Link href='https://restaurant-app-poofy25.vercel.app/'  target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live url <Image className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
+                    <div className="flex gap-4 mt-2 w-full justify-center">
+                        <Link href='https://github.com/poofy25/Restaurant_WebApp' target='_blank' className="w-[8rem] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Code <Image className="invert" src={GithubUrlSvg} width='32' height='32'/></Link>
+                        <Link href='https://restaurant-app-poofy25.vercel.app/'  target='_blank' className="w-[8rem] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live  <Image className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ export default function ProjectsSection () {
                     </div>
                     <div className="flex gap-4 mt-2">
                         <Link href='https://github.com/poofy25/GenAsig' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Code <Image className="invert" src={GithubUrlSvg} width='32' height='32'/></Link>
-                        <Link href='https://genasig.md/' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live url <Image className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
+                        <Link href='https://genasig.md/' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live  <Image className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@ export default function ProjectsSection () {
                     </div>
                     <div className="flex gap-4 mt-2">
                         <Link href='https://github.com/poofy25/lkw-aleks' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Code <Image className="invert" src={GithubUrlSvg} width='32' height='32'/></Link>
-                        <Link href='https://lkw-aleks.com/' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live url <Image className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
+                        <Link href='https://lkw-aleks.com/' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live  <Image className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
                     </div>
                 </div>
             </div>

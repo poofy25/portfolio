@@ -26,16 +26,16 @@ export default function Navbar () {
 
 
             {/* Logo */}
-            <h2 className="relative h-full flex flex-col justify-center items-center text-xl font-bold">
-                Cristian.dev
-            </h2>
+            <Link title='Home' href='#home' className="relative h-full flex flex-col justify-center items-center text-xl font-bold">
+                Buza Cristian
+            </Link>
 
             {/* Nav buttons */}
             <div className="hidden ml-auto gap-8 [&_*]:py-4 sm:flex font-bold">
-                <Link className='font-bold' href='#home'>Home</Link>
-                <Link href='#about'>About</Link>
-                <Link href='#projects'>Projects</Link>
-                <Link href='#contact'>Contact</Link>
+                <Link title='Home' className='font-bold' href='#home'>Home</Link>
+                <Link title='About' href='#about'>About</Link>
+                <Link title='Projects' href='#projects'>Projects</Link>
+                <Link title='Contract' href='#contact'>Contact</Link>
             </div>
 
             {/* Hamburger button */}

@@ -38,10 +38,10 @@ export default function NavBarMenu ({isMenuOpen , setIsMenuOpen}) {
                 <div className=" box-border text-2xl
                 flex flex-col justify-center bg-primary
                 ">   
-                    <Link href='#home' className={styles.navBarMenuLink}>Home</Link>
-                    <Link href='#about' className={styles.navBarMenuLink}>About</Link>
-                    <Link href='#projects' className={styles.navBarMenuLink}>Projects</Link>
-                    <Link href='#contact' className={`${styles.navBarMenuLink} !border-0`}>Contact</Link>
+                    <Link title='Home' href='#home' className={styles.navBarMenuLink}>Home</Link>
+                    <Link title='About' href='#about' className={styles.navBarMenuLink}>About</Link>
+                    <Link title='Projects' href='#projects' className={styles.navBarMenuLink}>Projects</Link>
+                    <Link title='Contact' href='#contact' className={`${styles.navBarMenuLink} !border-0`}>Contact</Link>
                 </div>
 
             </div>

@@ -31,57 +31,57 @@ export default function ProjectsSection () {
 
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col md:flex-row md:gap-16">
                 <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden md:w-[clamp(200px,45%,600px)]">
-                    <Image className="w-full h-full object-cover object-top" src={RestaurantProject} width='1200' height='1200'/>
+                    <Image alt='Project Image' className="w-full h-full object-cover object-top" src={RestaurantProject} width='1200' height='1200'/>
                 </div>
                 <div className="flex flex-col gap-4 flex-1 items-center justify-center">
                     <h3 className='text-center'>Full-Stack Restaurant Web App 🍽️ <br/> (In Works) </h3>
                     <p className="opacity-75 mb-2 text-center">A Full-Stack restaurant web app where users can add items to cart and place an order at checkout. It also features an Admin Panel where the admins can manage the menu and view and manage Real-Time orders.</p>
                     <div className="flex flex-wrap gap-2">
-                        <div className='skill'><Image src={ReactSvg} width='48' height='48'/></div>
-                        <div className='skill'><Image src={NextSvg} width='48' height='48'/></div>
-                        <div className='skill'><Image src={MongoSvg} width='48' height='48'/></div>
-                        <div className='skill'><Image src={TailwindSvg} width='48' height='48'/></div>
-                        <div className='skill'><Image src={SassSvg} width='48' height='48'/></div>
+                        <div className='skill'><Image alt='Skill icon' src={ReactSvg} width='48' height='48'/></div>
+                        <div className='skill'><Image alt='Skill icon' src={NextSvg} width='48' height='48'/></div>
+                        <div className='skill'><Image alt='Skill icon' src={MongoSvg} width='48' height='48'/></div>
+                        <div className='skill'><Image alt='Skill icon' src={TailwindSvg} width='48' height='48'/></div>
+                        <div className='skill'><Image alt='Skill icon' src={SassSvg} width='48' height='48'/></div>
                     </div>
                     <div className="flex gap-4 mt-2 w-full justify-center">
-                        <Link href='https://github.com/poofy25/Restaurant_WebApp' target='_blank' className="w-[8rem] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Code <Image className="invert" src={GithubUrlSvg} width='32' height='32'/></Link>
-                        <Link href='https://restaurant-app-poofy25.vercel.app/'  target='_blank' className="w-[8rem] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live  <Image className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
+                        <Link title='Project Code' href='https://github.com/poofy25/Restaurant_WebApp' target='_blank' className="w-[8rem] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Code <Image alt='Github icon' className="invert" src={GithubUrlSvg} width='32' height='32'/></Link>
+                        <Link title='Project Url' href='https://restaurant-app-poofy25.vercel.app/'  target='_blank' className="w-[8rem] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live  <Image alt='Url icon' className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
                     </div>
                 </div>
             </div>
 
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col md:flex-row-reverse md:gap-16">
                 <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden md:w-[clamp(200px,45%,600px)]">
-                    <Image className="w-full h-full object-cover object-top" src={GenAsigProject} width='1200' height='1200'/>
+                    <Image alt='Project Image' className="w-full h-full object-cover object-top" src={GenAsigProject} width='1200' height='1200'/>
                 </div>
                 <div className="flex flex-col gap-4 flex-1 items-center justify-center">
                     <h3>Insurance Landing Page 🔐</h3>
                     <p className="opacity-75 mb-2 text-center">An insurance website that allows users to select an insurance and check details about the insurance. The website also allows to send a contact form through the use of a Telegram bot.</p>
                     <div className="flex flex-wrap gap-2">
-                        <div className='skill'><Image src={ReactSvg} width='48' height='48'/></div>
-                        <div className='skill'><Image src={NextSvg} width='48' height='48'/></div>
-                        <div className='skill'><Image src={SassSvg} width='48' height='48'/></div>
+                        <div className='skill'><Image alt='Skill icon' src={ReactSvg} width='48' height='48'/></div>
+                        <div className='skill'><Image alt='Skill icon' src={NextSvg} width='48' height='48'/></div>
+                        <div className='skill'><Image alt='Skill icon' src={SassSvg} width='48' height='48'/></div>
                     </div>
                     <div className="flex gap-4 mt-2">
-                        <Link href='https://github.com/poofy25/GenAsig' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Code <Image className="invert" src={GithubUrlSvg} width='32' height='32'/></Link>
-                        <Link href='https://genasig.md/' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live  <Image className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
+                        <Link title='Project Code' href='https://github.com/poofy25/GenAsig' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Code <Image alt='Github icon' className="invert" src={GithubUrlSvg} width='32' height='32'/></Link>
+                        <Link title='Project Url' href='https://genasig.md/' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live  <Image alt='Url icon' className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
                     </div>
                 </div>
             </div>
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col md:flex-row md:gap-16">
                 <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden md:w-[clamp(200px,45%,600px)]">
-                    <Image className="w-full h-full object-cover object-top" src={LKWAleksProject} width='1200' height='1200'/>
+                    <Image alt='Project Image' className="w-full h-full object-cover object-top" src={LKWAleksProject} width='1200' height='1200'/>
                 </div>
                 <div className="flex flex-col gap-4 flex-1 items-center justify-center">
                     <h3>Logistics Landing Page 📦</h3>
                     <p className="opacity-75 mb-2 text-center">A logistics landing page that shows the businesses services, testimonials and FAQ. It also features an easy multiple language swicher and interactive navigation bar.  </p>
                     <div className="flex flex-wrap gap-2">
-                        <div className='skill'><Image src={ReactSvg} width='48' height='48'/></div>
-                        <div className='skill'><Image src={CssSvg} width='48' height='48'/></div>
+                        <div className='skill'><Image alt='Skill icon' src={ReactSvg} width='48' height='48'/></div>
+                        <div className='skill'><Image alt='Skill icon' src={CssSvg} width='48' height='48'/></div>
                     </div>
                     <div className="flex gap-4 mt-2">
-                        <Link href='https://github.com/poofy25/lkw-aleks' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Code <Image className="invert" src={GithubUrlSvg} width='32' height='32'/></Link>
-                        <Link href='https://lkw-aleks.com/' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live  <Image className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
+                        <Link title='Project Code' href='https://github.com/poofy25/lkw-aleks' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Code <Image alt='Github icon' className="invert" src={GithubUrlSvg} width='32' height='32'/></Link>
+                        <Link title='Project Url' href='https://lkw-aleks.com/' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live  <Image alt='Url icon' className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
                     </div>
                 </div>
             </div>

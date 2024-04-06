@@ -19,9 +19,9 @@ export default function NavBarMenu ({isMenuOpen , setIsMenuOpen}) {
 
                 <div className='px-[7.5vw] box-border w-full h-[80px] bg-primary flex items-center justify-between'>
                     {/* Logo */}
-                    <h2 className="relative text-xl font-bold">
-                        Cristian.dev
-                    </h2>
+                    <Link onClick={()=>setIsMenuOpen(false)}  href='#home' className="relative text-xl font-bold">
+                        Buza Cristian
+                    </Link>
 
                     {/* Hamburger button */}
                     <div className="relative h-full flex flex-col justify-center items-center sm:hidden ">
@@ -38,10 +38,10 @@ export default function NavBarMenu ({isMenuOpen , setIsMenuOpen}) {
                 <div className=" box-border text-2xl
                 flex flex-col justify-center bg-primary
                 ">   
-                    <Link title='Home' href='#home' className={styles.navBarMenuLink}>Home</Link>
-                    <Link title='About' href='#about' className={styles.navBarMenuLink}>About</Link>
-                    <Link title='Projects' href='#projects' className={styles.navBarMenuLink}>Projects</Link>
-                    <Link title='Contact' href='#contact' className={`${styles.navBarMenuLink} !border-0`}>Contact</Link>
+                    <Link onClick={()=>setIsMenuOpen(false)} title='Home' href='#home' className={styles.navBarMenuLink}>Home</Link>
+                    <Link onClick={()=>setIsMenuOpen(false)} title='About' href='#about' className={styles.navBarMenuLink}>About</Link>
+                    <Link onClick={()=>setIsMenuOpen(false)} title='Projects' href='#projects' className={styles.navBarMenuLink}>Projects</Link>
+                    <Link onClick={()=>setIsMenuOpen(false)} title='Contact' href='#contact' className={`${styles.navBarMenuLink} !border-0`}>Contact</Link>
                 </div>
 
             </div>

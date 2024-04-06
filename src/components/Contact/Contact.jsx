@@ -16,7 +16,7 @@ export default function ContactSection () {
             <h3 className="text-complimentary">CONTACT</h3>
             <div className="flex flex-col justify-between gap-8 w-full h-fit lg:flex-row lg:gap-16">
                 <div className="flex-1 flex flex-col">
-                    <h2 className='mb-8 mt-4 text-center lg:text-start'>Don't be shy! Hit me up! 👇</h2> 
+                    <h2 className='mb-8 mt-4 text-center lg:text-start'>Don&apos;t be shy! Hit me up! 👇</h2> 
 
                     <div className="flex items-center h-fit w-full gap-2 mb-4">
                         <Link href='mailto:buzacristian25@gmail.com' className="bg-secondary rounded-full shadow-xl w-fit h-full p-3 border-2 border-solid border-secondary hover:bg-primary-light transition-all">

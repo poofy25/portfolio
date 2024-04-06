@@ -1,6 +1,7 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import Script from 'next/script'
 const poppins = Poppins({ subsets: ["latin"],
 weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
  });
@@ -13,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
 
         <meta property="og:title" content="Buza Cristian | Web Developer based in Moldova"/>
         <meta property="og:description" content="Hey, my name is Buza Cristian, and I'm a Web Developer based in Moldova. My passion is to create and develop a clean and complex web apps for my users."/>
@@ -33,8 +34,22 @@ export default function RootLayout({ children }) {
 
 
         <link rel="shortcut icon" href="/favicon.ico" />
-      </Head>
-      <body className={poppins.className}>{children}</body>
+
+        <Script strategy="lazyOnload" async src="https://www.googletagmanager.com/gtag/js?id=G-FVP2MQ4P3E"></Script>
+          <Script strategy="lazyOnload">
+            {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-FVP2MQ4P3E');`}
+          </Script>
+
+      </head>
+      <body className={poppins.className}>{
+        children}
+
+          
+      </body>
     </html>
   );
 }

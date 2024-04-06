@@ -43,7 +43,7 @@ export default function HeroComponent () {
                 </div>
 
                 <div className="w-[85%] sm:w-[40%] max-w-[350px]  aspect-square relative heroImg">
-                    <Image src={HeroImage} alt='Hero Image' className='shadow-2xl' fill={true}/>
+                    <Image src={HeroImage} priority={true} alt='Hero Image' className='shadow-2xl' fill={true}/>
                 </div>
             </div>
 

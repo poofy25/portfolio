@@ -32,23 +32,23 @@ export default function RootLayout({ children }) {
         <meta name="author" content="Buza Cristian"/>
 
 
-
         <link rel="shortcut icon" href="/favicon.ico" />
 
-        <Script strategy="lazyOnload" async src="https://www.googletagmanager.com/gtag/js?id=G-FVP2MQ4P3E"></Script>
-          <Script strategy="lazyOnload">
-            {`window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-FVP2MQ4P3E');`}
-          </Script>
 
       </head>
       <body className={poppins.className}>{
         children}
 
           
+
+        <Script id="analytics" strategy="lazyOnload" async src="https://www.googletagmanager.com/gtag/js?id=G-FVP2MQ4P3E"></Script>
+          <Script id="googleanalytics" strategy="lazyOnload">
+            {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-FVP2MQ4P3E');`}
+          </Script>
       </body>
     </html>
   );

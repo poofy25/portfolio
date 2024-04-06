@@ -40,7 +40,7 @@ export default function Navbar () {
 
             {/* Hamburger button */}
             <div className="relative h-full flex flex-col justify-center items-center sm:hidden ">
-                <button onClick={()=>setIsMenuOpen(current=>!current)}
+                <button onClick={()=>setIsMenuOpen(current=>!current)} title="Menu Button"
                 className="relative w-[30px] h-[22px] p-0 bg-transparent hover:bg-transparent">
                     <div className="w-full h-[3px] absolute top-0 left-0 bg-secondary rounded"></div>
                     <div className="w-full h-[3px] translate-y-[-50%] absolute left-0 bg-secondary rounded"></div>

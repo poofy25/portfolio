@@ -17,7 +17,7 @@ export default function AboutSection () {
                     <Image src={AboutImg} alt="About Image" className="w-full h-full object-cover" height='500' width='700'/>
                 </div>
                 <div className="flex flex-col justify-center items-center flex-1 md:items-start">
-                    <h3 className="text-lg text-complimentary pb-2">ABOUT ME</h3>
+                    <p className=" font-semibold text-lg text-complimentary pb-2">ABOUT ME</p>
                     <h2 className="text-2xl font-bold text-center mb-4 md:text-start">Web Developer based in Moldova 📍</h2>
                     <p className="text-center text-base opacity-75 mb-4 md:text-start">Hey, my name is Buza Cristian, and I&apos;m a Web Developer. My passion is to create and develop a clean and complex web apps for my users.</p>
                     <p className="text-center text-base opacity-75 md:text-start">My main stack currently is React/Next.js in combination with Tailwind CSS and MongoDB.</p>

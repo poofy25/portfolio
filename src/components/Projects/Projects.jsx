@@ -26,7 +26,7 @@ export default function ProjectsSection () {
     return (
         <div id='projects' className="flex flex-col items-center px-[7.5vw] py-32 box-border w-full md:px-[17.5vw] md:items-start">
 
-            <h3 className='text-complimentary mb-2'>PROJECTS</h3>
+            <p className= 'font-semibold text-complimentary mb-2 text-lg'>PROJECTS</p>
             <h2 className='mb-8 text-center md:text-start'>Each project is an unique step to success 🎯 </h2>
 
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col md:flex-row md:gap-16">

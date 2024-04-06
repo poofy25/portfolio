@@ -13,7 +13,7 @@ import ContactForm from './ContactForm'
 export default function ContactSection () {
     return (
         <div id='contact' className="flex flex-col items-center bg-primary-light px-[7.5vw] py-32 box-border w-full md:px-[17.5vw] md:items-start">
-            <h3 className="text-complimentary">CONTACT</h3>
+            <p className="font-semibold text-lg text-complimentary">CONTACT</p>
             <div className="flex flex-col justify-between gap-8 w-full h-fit lg:flex-row lg:gap-16">
                 <div className="flex-1 flex flex-col">
                     <h2 className='mb-8 mt-4 text-center lg:text-start'>Don&apos;t be shy! Hit me up! 👇</h2> 

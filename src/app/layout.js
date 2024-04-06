@@ -36,8 +36,17 @@ export default function RootLayout({ children }) {
 
 
       </head>
-      <body className={poppins.className}>{
-        children}
+      <body className={poppins.className}>
+
+        {/* Metatags */}
+        <div itemscope itemtype="https://schema.org/WebSite">
+          <meta itemprop="name" content="Buza Cristian"/>
+          <meta itemprop="alternateName" content="Buza Cristian"/>
+          <meta itemprop="url" content="https://buzacristian.com"/>
+        </div>
+
+
+        {children}
 
           
 

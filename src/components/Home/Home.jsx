@@ -48,7 +48,7 @@ export default function HeroComponent () {
             </div>
 
             <div className='flex flex-col items-center gap-4 h-fit sm:flex-row sm:gap-6'>
-                <h3 className='font-bold text-lg  border-0 border-b-2 border-solid border-secondary sm:border-0'>Skills</h3>
+                <p className='font-bold text-lg  border-0 border-b-2 border-solid border-secondary sm:border-0'>Skills</p>
                 <span className='hidden sm:flex w-[2px] h-8 bg-secondary rounded opacity-75'></span>
                 <div className='flex items-center gap-4 flex-wrap justify-center sm:justify-start'>
                     <div className='flex gap-2'>

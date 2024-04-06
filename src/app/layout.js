@@ -14,8 +14,26 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-          <link rel="shortcut icon" href="/favicon.ico" />
-    </Head>
+
+        <meta property="og:title" content="Buza Cristian | Web Developer based in Moldova"/>
+        <meta property="og:description" content="Hey, my name is Buza Cristian, and I'm a Web Developer based in Moldova. My passion is to create and develop a clean and complex web apps for my users."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://buzacristian.com"/>
+        <meta property="og:image" content="/public/imgs/hero.png"/>
+
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="https://buzacristian.com"/>
+        <meta name="twitter:title" content="Buza Cristian | Web Developer based in Moldova"/>
+        <meta name="twitter:description" content="Hey, my name is Buza Cristian, and I'm a Web Developer based in Moldova. My passion is to create and develop a clean and complex web apps for my users."/>
+        <meta name="twitter:image" content="/public/imgs/hero.png"/>
+
+        <meta name="keywords" content="Buza Cristian , Web Developer , React Developer , React , Developer , Moldova"/>
+        <meta name="author" content="Buza Cristian"/>
+
+
+
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
       <body className={poppins.className}>{children}</body>
     </html>
   );

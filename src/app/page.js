@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar/NavBar";
 import HeroComponent from "@/components/Home/Home";
 import AboutSection from "@/components/About/About";
 import ProjectsSection from "@/components/Projects/Projects";
+import ContactSection from "@/components/Contact/Contact";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <HeroComponent/>
         <AboutSection/>
         <ProjectsSection/>
+        <ContactSection/>
       </main>
     </>
   );

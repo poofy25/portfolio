@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -32,4 +35,8 @@ h2{
 
 h3{
  @apply text-lg font-semibold
+}
+
+.blackToComply {
+  filter: invert(60%) sepia(21%) saturate(1147%) hue-rotate(136deg) brightness(97%) contrast(88%);
 }

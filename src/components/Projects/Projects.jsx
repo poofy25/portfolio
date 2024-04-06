@@ -30,7 +30,7 @@ export default function ProjectsSection () {
             <h2 className='mb-8 text-center md:text-start'>Each project is an unique step to success 🎯 </h2>
 
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col md:flex-row md:gap-16">
-                <div className="aspect-[14/10] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden md:w-[clamp(200px,50%,600px)]">
+                <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden md:w-[clamp(200px,45%,600px)]">
                     <Image className="w-full h-full object-cover object-top" src={RestaurantProject} width='1200' height='1200'/>
                 </div>
                 <div className="flex flex-col gap-4 flex-1 items-center justify-center">
@@ -51,7 +51,7 @@ export default function ProjectsSection () {
             </div>
 
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col md:flex-row-reverse md:gap-16">
-                <div className="aspect-[14/10] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden md:w-[clamp(200px,50%,600px)]">
+                <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden md:w-[clamp(200px,45%,600px)]">
                     <Image className="w-full h-full object-cover object-top" src={GenAsigProject} width='1200' height='1200'/>
                 </div>
                 <div className="flex flex-col gap-4 flex-1 items-center justify-center">
@@ -69,7 +69,7 @@ export default function ProjectsSection () {
                 </div>
             </div>
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col md:flex-row md:gap-16">
-                <div className="aspect-[14/10] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden md:w-[clamp(200px,50%,600px)]">
+                <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden md:w-[clamp(200px,45%,600px)]">
                     <Image className="w-full h-full object-cover object-top" src={LKWAleksProject} width='1200' height='1200'/>
                 </div>
                 <div className="flex flex-col gap-4 flex-1 items-center justify-center">

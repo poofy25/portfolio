@@ -19,7 +19,7 @@ export default function ContactSection () {
                     <h2 className='mb-8 mt-4 text-center lg:text-start'>Don&apos;t be shy! Hit me up! 👇</h2> 
 
                     <div className="flex items-center h-fit w-full gap-2 mb-4">
-                        <Link href='mailto:buzacristian25@gmail.com' className="bg-secondary rounded-full shadow-xl w-fit h-full p-3 border-2 border-solid border-secondary hover:bg-primary-light transition-all">
+                        <Link href='mailto:buzacristian25@gmail.com' className="bg-secondary rounded-full shadow-xl w-fit  p-2 border-2 border-solid border-secondary hover:bg-primary-light transition-all">
                             <Image className="blackToComply"  src={MailSVG} width='28' height='28'/>
                         </Link>
                         <div className="flex flex-col">
@@ -30,12 +30,12 @@ export default function ContactSection () {
                     <h3 className="mb-2">SOCIALS</h3>
                     <div className="flex gap-4 items-start">
                         <div className="flex items-center h-fit gap-2 ">
-                            <Link href='https://md.linkedin.com/in/buza-cristian-3006b8266' target="_blank" className="bg-secondary rounded-full shadow-xl w-fit h-full p-3 border-2 border-solid border-secondary hover:bg-primary-light transition-all">
+                            <Link href='https://md.linkedin.com/in/buza-cristian-3006b8266' target="_blank" className="bg-secondary rounded-full shadow-xl w-fit h-full p-2 border-2 border-solid border-secondary hover:bg-primary-light transition-all">
                                 <Image className="blackToComply"  src={LinkedInSVG} width='28' height='28'/>
                             </Link>
                         </div>
                         <div className="flex items-center h-fit gap-2">
-                            <Link href='https://www.facebook.com/buzacristian25/' target="_blank" className="bg-secondary rounded-full shadow-xl w-fit h-full p-3 border-2 border-solid border-secondary hover:bg-primary-light transition-all">
+                            <Link href='https://www.facebook.com/buzacristian25/' target="_blank" className="bg-secondary rounded-full shadow-xl w-fit h-full p-2 border-2 border-solid border-secondary hover:bg-primary-light transition-all">
                                 <Image className="blackToComply"  src={FacebookSVG} width='28' height='28'/>
                             </Link>
                         </div>

@@ -1,3 +1,4 @@
 .navBarMenuLink {
-    @apply py-2 border-0 border-b-2 border-primary border-solid pl-[7.5vw] bg-primary
+    @apply py-2 text-start w-full border-0 border-b-2 border-primary-light border-solid bg-primary
+    hover:text-complimentary transition-all
 }

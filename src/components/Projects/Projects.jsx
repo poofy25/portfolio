@@ -24,13 +24,13 @@ import GithubUrlSvg from '/public/svgs/github.svg'
 
 export default function ProjectsSection () {
     return (
-        <div id='projects' className="flex flex-col items-center px-[7.5vw] py-32 box-border w-full md:px-[17.5vw] md:items-start">
+        <div id='projects' className="flex flex-col items-center px-[7.5vw] py-32 box-border w-full lg:px-[17.5vw] lg:items-start">
 
             <p className= 'font-semibold text-complimentary mb-2 text-lg'>PROJECTS</p>
-            <h2 className='mb-8 text-center md:text-start'>Each project is an unique step to success 🎯 </h2>
+            <h2 className='mb-8 text-center lg:text-start'>Each project is an unique step to success 🎯 </h2>
 
-            <div className="flex gap-8 mb-16 items-center relative w-full flex-col md:flex-row md:gap-16">
-                <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden md:w-[clamp(200px,45%,600px)]">
+            <div className="flex gap-8 mb-16 items-center relative w-full flex-col lg:flex-row lg:gap-16">
+                <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
                     <Image alt='Project Image' className="w-full h-full object-cover object-top" src={RestaurantProject} width='1200' height='1200'/>
                 </div>
                 <div className="flex flex-col gap-4 flex-1 items-center justify-center">
@@ -50,8 +50,8 @@ export default function ProjectsSection () {
                 </div>
             </div>
 
-            <div className="flex gap-8 mb-16 items-center relative w-full flex-col md:flex-row-reverse md:gap-16">
-                <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden md:w-[clamp(200px,45%,600px)]">
+            <div className="flex gap-8 mb-16 items-center relative w-full flex-col lg:flex-row-reverse lg:gap-16">
+                <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
                     <Image alt='Project Image' className="w-full h-full object-cover object-top" src={GenAsigProject} width='1200' height='1200'/>
                 </div>
                 <div className="flex flex-col gap-4 flex-1 items-center justify-center">
@@ -64,12 +64,12 @@ export default function ProjectsSection () {
                     </div>
                     <div className="flex gap-4 mt-2">
                         <Link title='Project Code' href='https://github.com/poofy25/GenAsig' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Code <Image alt='Github icon' className="invert" src={GithubUrlSvg} width='32' height='32'/></Link>
-                        <Link title='Project Url' href='https://genasig.md/' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live  <Image alt='Url icon' className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
+                        <Link title='Project Url' href='https://genasig.lg/' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live  <Image alt='Url icon' className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
                     </div>
                 </div>
             </div>
-            <div className="flex gap-8 mb-16 items-center relative w-full flex-col md:flex-row md:gap-16">
-                <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden md:w-[clamp(200px,45%,600px)]">
+            <div className="flex gap-8 mb-16 items-center relative w-full flex-col lg:flex-row lg:gap-16">
+                <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
                     <Image alt='Project Image' className="w-full h-full object-cover object-top" src={LKWAleksProject} width='1200' height='1200'/>
                 </div>
                 <div className="flex flex-col gap-4 flex-1 items-center justify-center">

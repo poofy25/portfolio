@@ -49,7 +49,7 @@ export default function ContactForm () {
     }
 
     return (
-        <form onSubmit={handleFormSubmit} className="flex flex-col gap-2">
+        <form onSubmit={handleFormSubmit} className="flex flex-1 flex-col gap-2 ">
                         <div className="flex flex-col">
                             <label>Name <span>*</span></label>
                             <input minLength={2} onChange={(e)=>setName(e.target.value)} value={name}  name="name" required placeholder='Your name' type="text"/>

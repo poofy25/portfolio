@@ -10,7 +10,7 @@ export default function NavBarMenu ({isMenuOpen , setIsMenuOpen}) {
         // style={{transition:'3s ease-in-out'}}
         className={`
             ${isMenuOpen ? ' top-[0px] no-doc-scroll h-full' : 'top-0 h-0'}
-            w-full h-full fixed  transition-all transition-[all 5000ms] left-0 z-10 overflow-hidden
+            w-full  fixed  transition-all transition-[all 5000ms] left-0 z-10 overflow-hidden
             bg-[rgba(0,0,0,0.5)] 
             flex lg:hidden
         `}>

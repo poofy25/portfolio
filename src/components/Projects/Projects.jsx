@@ -64,7 +64,7 @@ export default function ProjectsSection () {
                     </div>
                     <div className="flex gap-4 mt-2">
                         <Link title='Project Code' href='https://github.com/poofy25/GenAsig' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Code <Image alt='Github icon' className="invert" src={GithubUrlSvg} width='32' height='32'/></Link>
-                        <Link title='Project Url' href='https://genasig.lg/' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live  <Image alt='Url icon' className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
+                        <Link title='Project Url' href='https://genasig.md/' target='_blank' className="w-[116px] projectBtn px-2 py-2 border-2 border-solid border-secondary rounded-lg font-semibold flex items-center justify-center gap-2 shadow-xl hover:text-primary hover:bg-secondary transition-all">Live  <Image alt='Url icon' className="invert" src={OpenUrlSvg} width='32' height='32'/></Link>
                     </div>
                 </div>
             </div>

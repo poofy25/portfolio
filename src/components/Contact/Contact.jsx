@@ -6,6 +6,8 @@ import Link from "next/link"
 import MailSVG from '/public/svgs/mail.svg'
 import LinkedInSVG from '/public/svgs/linkedin.svg'
 import FacebookSVG from '/public/svgs/facebook.svg'
+import InstagramSVG from '/public/svgs/instagram.svg'
+import GitHubSVG from '/public/svgs/github.svg'
 
 import ContactForm from './ContactForm'
 
@@ -35,8 +37,18 @@ export default function ContactSection () {
                             </Link>
                         </div>
                         <div className="flex items-center h-fit gap-2">
+                            <Link title='Github' href='https://github.com/poofy25' target="_blank" className="bg-secondary rounded-full shadow-xl w-fit h-full p-2 border-2 border-solid border-secondary hover:bg-primary-light transition-all">
+                                <Image className="blackToComply" alt='Github Icon'  src={GitHubSVG} width='28' height='28'/>
+                            </Link>
+                        </div>
+                        <div className="flex items-center h-fit gap-2">
                             <Link title='Facebook' href='https://www.facebook.com/buzacristian25/' target="_blank" className="bg-secondary rounded-full shadow-xl w-fit h-full p-2 border-2 border-solid border-secondary hover:bg-primary-light transition-all">
                                 <Image className="blackToComply" alt='Facebook Icon'  src={FacebookSVG} width='28' height='28'/>
+                            </Link>
+                        </div>
+                        <div className="flex items-center h-fit gap-2">
+                            <Link title='Instagram' href='https://www.instagram.com/buzacristian25/' target="_blank" className="bg-secondary rounded-full shadow-xl w-fit h-full p-2 border-2 border-solid border-secondary hover:bg-primary-light transition-all">
+                                <Image className="blackToComply" alt='Instagram Icon'  src={InstagramSVG} width='28' height='28'/>
                             </Link>
                         </div>
                     </div>

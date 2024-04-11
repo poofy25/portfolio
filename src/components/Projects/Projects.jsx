@@ -44,7 +44,7 @@ export default function ProjectsSection () {
         <div id='projects' className="flex flex-col items-center px-[7.5vw] py-32 box-border w-full lg:px-[17.5vw] lg:items-start">
 
             <p data-aos="fade-down" className='font-semibold text-complimentary mb-2 text-lg'>PROJECTS</p>
-            <h2 data-aos="fade-down" className='mb-8 text-center lg:text-start'>Each project is an unique step to success 🎯 </h2>
+            <h2 data-aos="fade-down" className='mb-8 text-center lg:text-start'>Each project is a unique step to success 🎯 </h2>
 
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col lg:flex-row lg:gap-16">
                 <div data-aos="fade-right" className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">

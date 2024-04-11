@@ -4,6 +4,12 @@ import { handleSendMessage } from "@/actions/FormActions"
 
 import { useState } from "react"
 
+import { useEffect } from 'react'
+
+import 'aos/dist/aos.css';
+
+import AOS from 'aos';
+
 
 export default function ContactForm () {
 
@@ -48,24 +54,31 @@ export default function ContactForm () {
 
     }
 
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, // Animation duration
+          once: true, // Animation only once
+        });
+      }, []);
+
     return (
         <form onSubmit={handleFormSubmit} className="flex flex-1 flex-col gap-2 ">
                         <div className="flex flex-col">
-                            <label>Name <span>*</span></label>
-                            <input minLength={2} onChange={(e)=>setName(e.target.value)} value={name}  name="name" required placeholder='Your name' type="text"/>
+                            <label data-aos="fade-down" data-aos-delay="100" >Name <span>*</span></label>
+                            <input data-aos="fade-down" data-aos-delay="100" minLength={2} onChange={(e)=>setName(e.target.value)} value={name}  name="name" required placeholder='Your name' type="text"/>
                         </div>
 
                         <div className="flex flex-col">
-                            <label>Email <span>*</span></label>
-                            <input minLength={5} onChange={(e)=>setEmail(e.target.value)} value={email} name="email" required placeholder='Your email' type="email"/>
+                            <label data-aos="fade-down" data-aos-delay="100">Email <span>*</span></label>
+                            <input data-aos="fade-down" data-aos-delay="100" minLength={5} onChange={(e)=>setEmail(e.target.value)} value={email} name="email" required placeholder='Your email' type="email"/>
                         </div>
 
                         <div className="flex flex-col">
-                            <label>Message <span>*</span></label>
-                            <textarea minLength={10} onChange={(e)=>setMessage(e.target.value)} value={message} name="message" required placeholder='Your message' type="text"/>
+                            <label data-aos="fade-down" data-aos-delay="100">Message <span>*</span></label>
+                            <textarea data-aos="fade-down" data-aos-delay="100" minLength={10} onChange={(e)=>setMessage(e.target.value)} value={message} name="message" required placeholder='Your message' type="text"/>
                         </div>
 
-                        <button disabled={loading}>{loading ? 'Sending message...' : 'Send message'}</button>
+                        <button data-aos="fade-up" disabled={loading}>{loading ? 'Sending message...' : 'Send message'}</button>
 
                         {error !== null ? <div className='w-full text-sm bg-red-500 text-secondary font-semibold flex items-center justify-center py-3 rounded border-2 border-solid border-red-500 text-center'>{error}</div> : ''}
                         {success !== null  ? <div className='w-full text-sm bg-green-500 text-secondary font-semibold flex items-center justify-center py-3 rounded border-2 border-solid border-green-500 text-center'>{success}</div> : ''}

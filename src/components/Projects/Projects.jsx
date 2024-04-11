@@ -1,3 +1,5 @@
+'use client'
+
 import './projects.scss'
 
 import Image from "next/image"
@@ -22,18 +24,33 @@ import MongoSvg from '/public/svgs/mongoicon.svg'
 import OpenUrlSvg from '/public/svgs/web.svg'
 import GithubUrlSvg from '/public/svgs/github.svg'
 
+
+import { useEffect } from 'react'
+
+import 'aos/dist/aos.css';
+
+import AOS from 'aos';
+
 export default function ProjectsSection () {
+
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, // Animation duration
+          once: true, // Animation only once
+        });
+      }, []);
+
     return (
         <div id='projects' className="flex flex-col items-center px-[7.5vw] py-32 box-border w-full lg:px-[17.5vw] lg:items-start">
 
-            <p className= 'font-semibold text-complimentary mb-2 text-lg'>PROJECTS</p>
-            <h2 className='mb-8 text-center lg:text-start'>Each project is an unique step to success 🎯 </h2>
+            <p data-aos="fade-down" className='font-semibold text-complimentary mb-2 text-lg'>PROJECTS</p>
+            <h2 data-aos="fade-down" className='mb-8 text-center lg:text-start'>Each project is an unique step to success 🎯 </h2>
 
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col lg:flex-row lg:gap-16">
-                <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
+                <div data-aos="fade-right" className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
                     <Image alt='Project Image' className="w-full h-full object-cover object-top" src={RestaurantProject} width='1200' height='1200'/>
                 </div>
-                <div className="flex flex-col gap-4 flex-1 items-center justify-center">
+                <div data-aos="fade-left" className="flex flex-col gap-4 flex-1 items-center justify-center">
                     <h3 className='text-center'>Full-Stack Restaurant Web App 🍽️ <br/> (In Works) </h3>
                     <p className="opacity-75 mb-2 text-center">A Full-Stack restaurant web app where users can add items to cart and place an order at checkout. It also features an Admin Panel where the admins can manage the menu and view and manage Real-Time orders.</p>
                     <div className="flex flex-wrap gap-2">
@@ -51,10 +68,10 @@ export default function ProjectsSection () {
             </div>
 
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col lg:flex-row-reverse lg:gap-16">
-                <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
+                <div data-aos="fade-left" className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
                     <Image alt='Project Image' className="w-full h-full object-cover object-top" src={GenAsigProject} width='1200' height='1200'/>
                 </div>
-                <div className="flex flex-col gap-4 flex-1 items-center justify-center">
+                <div data-aos="fade-right" className="flex flex-col gap-4 flex-1 items-center justify-center">
                     <h3>Insurance Landing Page 🔐</h3>
                     <p className="opacity-75 mb-2 text-center">An insurance website that allows users to select an insurance and check details about the insurance. The website also allows to send a contact form through the use of a Telegram bot.</p>
                     <div className="flex flex-wrap gap-2">
@@ -69,10 +86,10 @@ export default function ProjectsSection () {
                 </div>
             </div>
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col lg:flex-row lg:gap-16">
-                <div className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
+                <div data-aos="fade-right" className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
                     <Image alt='Project Image' className="w-full h-full object-cover object-top" src={LKWAleksProject} width='1200' height='1200'/>
                 </div>
-                <div className="flex flex-col gap-4 flex-1 items-center justify-center">
+                <div data-aos="fade-left" className="flex flex-col gap-4 flex-1 items-center justify-center">
                     <h3>Logistics Landing Page 📦</h3>
                     <p className="opacity-75 mb-2 text-center">A logistics landing page that shows the businesses services, testimonials and FAQ. It also features an easy multiple language swicher and interactive navigation bar.  </p>
                     <div className="flex flex-wrap gap-2">

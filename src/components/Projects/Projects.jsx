@@ -5,9 +5,9 @@ import './projects.scss'
 import Image from "next/image"
 import Link from "next/link"
 
-import GenAsigProject from '/public/imgs/genasig-project.png'
-import LKWAleksProject from '/public/imgs/lkwaleks-project.png'
-import RestaurantProject from '/public/imgs/restaurant-project.png'
+import GenAsigProject from '/public/imgs/genasig-mockup.png'
+import LKWAleksProject from '/public/imgs/lkwaleks-mockup.png'
+import RestaurantProject from '/public/imgs/restaurant-mockup.png'
 
 
 import HtmlSvg from '/public/svgs/htmlicon.svg'
@@ -47,8 +47,8 @@ export default function ProjectsSection () {
             <h2 data-aos="fade-down" className='mb-8 text-center lg:text-start'>Each project is a unique step to success 🎯 </h2>
 
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col lg:flex-row lg:gap-16">
-                <div data-aos="fade-right" className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
-                    <Image alt='Project Image' className="w-full h-full object-cover object-top" src={RestaurantProject} width='1200' height='1200'/>
+                <div data-aos="fade-right" className="w-[clamp(200px,100%,600px)] drop-shadow-lg rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
+                    <Image alt='Project Image' className="w-full h-full object-scale-down object-top" src={RestaurantProject} width='1200' height='1200'/>
                 </div>
                 <div data-aos="fade-left" className="flex flex-col gap-4 flex-1 items-center justify-center">
                     <h3 className='text-center'>Full-Stack Restaurant Web App 🍽️ <br/> (In Works) </h3>
@@ -68,8 +68,8 @@ export default function ProjectsSection () {
             </div>
 
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col lg:flex-row-reverse lg:gap-16">
-                <div data-aos="fade-left" className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
-                    <Image alt='Project Image' className="w-full h-full object-cover object-top" src={GenAsigProject} width='1200' height='1200'/>
+                <div data-aos="fade-left" className="w-[clamp(200px,100%,600px)] drop-shadow-lg rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
+                    <Image alt='Project Image' className="w-full h-full object-scale-down object-top" src={GenAsigProject} width='1200' height='1200'/>
                 </div>
                 <div data-aos="fade-right" className="flex flex-col gap-4 flex-1 items-center justify-center">
                     <h3>Insurance Landing Page 🔐</h3>
@@ -86,8 +86,8 @@ export default function ProjectsSection () {
                 </div>
             </div>
             <div className="flex gap-8 mb-16 items-center relative w-full flex-col lg:flex-row lg:gap-16">
-                <div data-aos="fade-right" className="aspect-[14/14] w-[clamp(200px,100%,600px)] shadow-2xl rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
-                    <Image alt='Project Image' className="w-full h-full object-cover object-top" src={LKWAleksProject} width='1200' height='1200'/>
+                <div data-aos="fade-right" className="w-[clamp(200px,100%,600px)] drop-shadow-lg rounded-lg relative overflow-hidden lg:w-[clamp(200px,45%,600px)]">
+                    <Image alt='Project Image' className="w-full h-full object-scale-down object-top" src={LKWAleksProject} width='1200' height='1200'/>
                 </div>
                 <div data-aos="fade-left" className="flex flex-col gap-4 flex-1 items-center justify-center">
                     <h3>Logistics Landing Page 📦</h3>
